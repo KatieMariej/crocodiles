@@ -15,6 +15,8 @@
 body {
     color:#56712E;
     background-color: #fff5EB;
+    margin: 0px;
+    padding-top: 100px;
 }
 
 
@@ -27,7 +29,7 @@ body {
 /* default styling for headings */
 h1,h2,h3,h4,h5,h6 {
     font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.1;
+    line-height: 1.3;
     font-weight: 700;
 }
 
@@ -103,12 +105,6 @@ a:hover {
      color:#6935d2;
         }
 
- /*blockquote*/
-figure.quote {
-    border-left: 8px solid #D8415C;
-    padding:1.5rem 0 1.5rem 2rem;
-    margin-bottom: 2rem;
-    }
          
 /*Colour Blocks*/
 .colour-block{
@@ -137,11 +133,11 @@ figure.quote {
     }
 
     h1{
-        font-size: 2.25rem;
+        font-size: 3.84rem;
         margin-bottom: 1rem;
         }
         h2{
-        font-size: 1.875rem;
+        font-size: 2.88rem;
         }
         h3{
         font-size: 1.5rem;
@@ -149,4 +145,44 @@ figure.quote {
         h4{
         font-size: 1.25rem;
         }
+
         
+      /* Menu Bar*/
+        
+        .navbar ul{
+            list-style-type: none;
+            background-color: #56712E;
+            padding: 0px;
+            margin: 0px; 
+            width: 100%;
+            position: fixed; 
+            top: 0; 
+            left: 0;
+            right: 0;
+            padding-left: 14%;
+            padding-right: 12%;
+
+        }
+
+        .navbar a{
+            color:#fff5EB;
+            font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+            font-size: 1.875rem;
+            text-decoration: none; 
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        .navbar li{
+            float: left;
+            overflow: hidden;
+
+        }
+
+    #image
+    {
+        width: 100%;
+        height: 1080px;
+    }
